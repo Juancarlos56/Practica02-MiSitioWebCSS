@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: 100%;
+    height: 150px;
+    background-color: #E6E1DA;
+    color: white;
+}
+
+#leftFloat{
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 10px 10px 10px 10px;;
+    text-align: center;
+    width: 8%;
+    line-height: 160px;
+    background-color: #BFBCB6;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    border-radius:130px;
+}
+
+
+#rightFloat{
+    width: 85%;
+    line-height: 150px;
+    background-color: #E6E1DA;
+    text-align: center;
+    float: left;
+}
+
+.posicionBoton{
+    margin-left: 0px;
+    padding: 65px 10px 10px 20px;
+    width: 20%;
+    line-height: 15px;
+    background-color: #E6E1DA;
+    text-align: center;
+    float: left;
+}
+
+.container1{
+    margin-left: 5px;
+    width: 300px;
+    padding-left: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container1 input.botonBuscar{
+    width: 500px;
+    height: 30px;
+/*    background: #FFFAF2;*/
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #FFFAF2;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+ .container1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #FFFAF2;
+  }

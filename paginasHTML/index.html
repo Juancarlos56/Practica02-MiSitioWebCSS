@@ -15,6 +15,10 @@
     <title>Indie Rock</title>
     <!--metadatos para la pagina Indie Rock-->
     <meta name="keywords" content="Indie Rock, musica, Juan, rock" />
+    <link rel="stylesheet" href="../css/pageHome.css">
+    <link rel="stylesheet" href="../css/estilos.css" type="text/css" media="screen"/>
+    
+
 </head>
 <!--etiqueta body se utiliza para marcar el contenido
 que aparecerá en la página web-->
@@ -23,7 +27,25 @@ que aparecerá en la página web-->
         nombre o imagen de la Pagina. Puedes definir cabeceras tanto a nivel de página 
         como de una zona determinada-->
     <header>
-        <img src="../images/cabecera2.jpg"  alt="Indie Rock" style="width: 100%;">
+        <div class="logo">
+            <a href="index.html" title="Ir a la Pagina principal"> <img src="../images/ciervoIndie.jpg" id="leftFloat"> </a>
+            
+            <div id="rightFloat"> 
+
+                <div class="posicionBoton">
+                    <div class="container1">
+                        <span class="icon"><i class="fas fa-search"></i></span>
+    
+                        <input class="botonBuscar" type="search" autocapitalize="none" placeholder="Buscar..." value=""/>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <!-- <img src="../images/cabecera2.jpg"  alt="Indie Rock" style="width: 100%;">--> 
     </header>
     <!--Esta es la barra de navegación principal del sitio. Sirve para definir 
         una zona de navegación con vínculos entre las diferentes páginas.-->
@@ -66,8 +88,8 @@ que aparecerá en la página web-->
             <!--La función del elemento <aside> es mostrar un contenido relacionado al 
                 contenido al cuál esta vinculado. Puede tratarse de sidebars, zonas de widgets, complementos sobre un artículo, etc-->
             <h3>Nuestros Videos con la mas alta calidad</h3>
-            <video  data-scr="../videos/Motorama — Alps (Official Video).mp4" controls style="width: 400px;"></video> 
-           
+            <video src="../videos/MotoramaAlps.mp4" controls style="width: 400px;" ></video>
+            
         </aside>
             
         <article>
