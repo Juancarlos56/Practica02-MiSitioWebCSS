@@ -28,20 +28,39 @@ que aparecerá en la página web-->
         como de una zona determinada-->
     <header>
         <div class="logo">
-            <a href="index.html" title="Ir a la Pagina principal"> <img src="../images/ciervoIndie.jpg" id="leftFloat"> </a>
+            <a href="index.html" title="Ir a la Pagina principal"> <img src="../images/LOGO.png" id="leftFloat"> </a>
             
             <div id="rightFloat"> 
-
                 <div class="posicionBoton">
                     <div class="container1">
-                        <span class="icon"><i class="fas fa-search"></i></span>
+                        <span class="icon">
+                            <img src="../imagesCSS/search.png" alt="buscar">
+                        </span>
     
                         <input class="botonBuscar" type="search" autocapitalize="none" placeholder="Buscar..." value=""/>
                     </div>
                 </div>
-                
-            </div>
 
+                <div class="opcionesUsuairo">
+                    <div class="container2">
+                        <span class="btnAcceder">
+                            <img src="../imagesCSS/user.png" alt="Acceder a la cuenta">
+                            <h5>Acceder</h5>
+                        </span>
+
+                        <span class="btnMensajeria">
+                            <img src="../imagesCSS/mensajeria.png" alt="Enviar mensaje">
+                            <h5>Mensajeria</h5>
+                        </span>
+
+                        <span class="btnCrearCuenta">
+                            <img src="../imagesCSS/nuevoUser.png" alt="Crear Cuenta">
+                            <h5>Crear Cuenta</h5>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
 
@@ -49,63 +68,63 @@ que aparecerá en la página web-->
     </header>
     <!--Esta es la barra de navegación principal del sitio. Sirve para definir 
         una zona de navegación con vínculos entre las diferentes páginas.-->
-    <nav>
-        <ol>       
-            <li><a href="index.html">Pagina de Inicio</a> </li>
-            <li><a href="bandasIndie.html">Bandas Indie</a></li>        
-            <li><a href="videosMusicales.html">Videos Musicales</a> </li>            
-            <li><a href="publicaciones.html">Publicaciones</a></li>
-            <li><a href="historia.html">Historia</a></li>       
-            <li><a href="presentaciones.html">Presentaciones</a></li> 
-            <li><a href="contactos.html">Contactos</a> </li>
-            <li><a href="audio.html">Audios Musicales</a> </li>
-            <li><a href="aboutUs.html">About Us</a> </li>
-        </ol> 
-    </nav>
-    <section> 
-        <!--La función del elemento <section> es agrupar elementos relacionados entre sí.-->
-        <header>
-            <h1>Música Indie rock</h1>
-        </header>
-        <time datetime="2020-04-04">Abril, 05 de 2020</time>
-        <h3>Indice</h3>
-        <ol>
-            <li><a href="index.html#queHallar"> ¿Qué hallarás en este Sitio? </a></li>
-            <li><a href="index.html#queIndie">¿Qué es la Musica Indie?</a></li>
-        </ol>
-        <article>
-            <!--sirve para definir un contenido autónomo e independiente, que pueda ser 
-                usado en otra parte de la web sin que por ello pierda su significado. usarías 
-                el elemento <artícle> para un artículo de un blog, o una noticia de un 
-                    periódico o incluso un comentario de un blog-->
-            <h2 id="queHallar">¿Qué hallarás en este Sitio?</h2>
-            <p>
-                <img src="../images/textoIndie.jpg" alt="Indie" style="width: 200px;"/> En este sitio usted explorará la música más popular en cualquier genero musical e indaga nuevas canciones atraves de todos nuestros servicios de música, usted tiene la posibilidad de escucha a sus artistas favoritos, verlos y compartir un mundo musical en un solo lugar. Con nosotros encontraras Música, estrenos, fechas, presentaciones, datos, noticias sobre este tipo de musica y sus distintos géneros. <em>Bienvenido a un espacio pensado en ti</em>.
-            </p>
-        </article>
 
-        <aside>
+    <div id="menu"> 
+        <nav>
+            <ol>       
+                <li><a href="index.html">Pagina de Inicio</a> </li>
+                <li><a href="bandasIndie.html">Bandas Indie</a></li>        
+                <li><a href="videosMusicales.html">Videos Musicales</a> </li>            
+                <li><a href="publicaciones.html">Publicaciones</a></li>
+                <li><a href="historia.html">Historia</a></li>       
+                <li><a href="presentaciones.html">Presentaciones</a></li> 
+                <li><a href="contactos.html">Contactos</a> </li>
+                <li><a href="audio.html">Audios Musicales</a> </li>
+                <li><a href="aboutUs.html">About Us</a> </li>
+            </ol> 
+        </nav>
+    </div>    
+    <div class="fondo">
+        <!--La función del elemento <aside> es mostrar un contenido relacionado al 
+            contenido al cuál esta vinculado. Puede tratarse de sidebars, zonas de widgets, complementos sobre un artículo, etc-->
+        <img src="../imagesCSS/presentacion.png" alt="presentacion" style="width: 100%;">
+        
+    </div>
+
+    <div class="separador"> 
+    </div>
+
+    <section class="seccion1"> 
+        <!--La función del elemento <section> es agrupar elementos relacionados entre sí.-->
+        
+        <div class="presentacion">
+            <header>
+                <h1>ROCK MUSIC</h1>
+            </header>
+            
+            <article>
+                <!--sirve para definir un contenido autónomo e independiente, que pueda ser 
+                    usado en otra parte de la web sin que por ello pierda su significado. usarías 
+                    el elemento <artícle> para un artículo de un blog, o una noticia de un 
+                        periódico o incluso un comentario de un blog-->
+                <p>
+                    <!-- <img src="../images/textoIndie.jpg" alt="Indie" style="width: 200px;"/> -->
+                    En este sitio encontraras la música más cool de cualquier genero musical e indagaras por nuevas canciones atraves de todos nuestros servicios de música, tienes la posibilidad de escucha a tus artistas favoritos, verlos en conciertos y compartir un mundo musical completo en un solo lugar.  <em>Bienvenido a un espacio pensado en ti</em>.
+                </p>
+            </article>
+        </div>
+
+        <aside class="aside1">
             <!--La función del elemento <aside> es mostrar un contenido relacionado al 
                 contenido al cuál esta vinculado. Puede tratarse de sidebars, zonas de widgets, complementos sobre un artículo, etc-->
-            <h3>Nuestros Videos con la mas alta calidad</h3>
-            <video src="../videos/MotoramaAlps.mp4" controls style="width: 400px;" ></video>
+            <img src="../imagesCSS/presentacion2.png" alt="presentacion" style="width: 80%;">
             
         </aside>
             
-        <article>
-            <blockquote>
-                <h2 id="queIndie">¿Qué es la Musica Indie?</h2>
-                <p>
-                    <img src="../images/indie.jpg" alt="Indie" style="width: 200px;"/>El término <i>Indie</i> suele usarse (muy incorrectamente) para referirse a un sonido nuevo que un músico presenta. Originalmente está ligado a las condiciones de producción y circulación de su obra, refiriéndose a aquellos músicos que producen su obra de manera independiente (<em>palabra de donde deriva el termino</em>) y no a un género musical. En un sentido musical el … <u><a href="historia.html">Más información</a></u>. 
-                </p>    
-            </blockquote>
-        </article>
-        <aside>
-            <h3>Características de la Musica Indie</h3>
-            <a href="publicaciones.html#queSon"><img src="../images/generosPublic.jpeg" alt="Fotografia" style="width: 200px;"></a>
-        </aside>
-
+    
     </section>
+
+
 
     <section>
         <header>
@@ -116,6 +135,18 @@ que aparecerá en la página web-->
             <li><a href="index.html#generos"> Indie Rock y Alternativo. ¿Géneros musicales o sociales?</a></li>
             <li><a href="index.html#movimiento"> El movimiento indie y la tecnología</a></li>
         </ol>
+
+        <article>
+            <blockquote>
+                <h2 id="queIndie">¿Qué es la Musica Indie?</h2>
+                <p>
+                     <!-- <img src="../images/indie.jpg" alt="Indie" style="width: 200px;"/>-->
+                     El término <i>Indie</i> suele usarse (muy incorrectamente) para referirse a un sonido nuevo que un músico presenta. Originalmente está ligado a las condiciones de producción y circulación de su obra, refiriéndose a aquellos músicos que producen su obra de manera independiente (<em>palabra de donde deriva el termino</em>) y no a un género musical. En un sentido musical el … <u><a href="historia.html">Más información</a></u>. 
+                </p>    
+            </blockquote>
+        </article>
+
+
         <article>
             <blockquote>
                 <h2 id="generos">Indie Rock y Alternativo. ¿Géneros musicales o sociales?</h2>

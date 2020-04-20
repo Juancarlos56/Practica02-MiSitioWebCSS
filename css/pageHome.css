@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -6,8 +6,8 @@
 .logo{
     width: 100%;
     height: 150px;
-    background-color: #E6E1DA;
-    color: white;
+    background-color: black;
+    color: #403F3D;
 }
 
 #leftFloat{
@@ -17,7 +17,7 @@
     text-align: center;
     width: 8%;
     line-height: 160px;
-    background-color: #BFBCB6;
+    background-color: #403F3D;
     background-repeat: no-repeat;
     background-position: center;
     float: left;
@@ -26,51 +26,183 @@
 
 
 #rightFloat{
-    width: 85%;
-    line-height: 150px;
-    background-color: #E6E1DA;
+    width: 88%;
+    height: 118px;
+    margin-left: 10px;
+    padding: 0px 10px 0px 0px;
+    background-color: black;
     text-align: center;
     float: left;
 }
 
-.posicionBoton{
-    margin-left: 0px;
-    padding: 65px 10px 10px 20px;
-    width: 20%;
-    line-height: 15px;
-    background-color: #E6E1DA;
+#rightFloat .posicionBoton{
+    width: 60%;
+    padding: 45px 10px 2px 20px;
+    line-height: 25px;
+    background-color: black;
     text-align: center;
     float: left;
 }
 
-.container1{
-    margin-left: 5px;
-    width: 300px;
+#rightFloat .posicionBoton .container1{
+    width: 100%;
+    height: 25px;
+    margin-left: 2px;
     padding-left: 20px;
     vertical-align: middle;
     white-space: nowrap;
-    position: relative;
 }
 
-.container1 input.botonBuscar{
-    width: 500px;
-    height: 30px;
-/*    background: #FFFAF2;*/
+#rightFloat .posicionBoton .container1 .icon{
+    width: 3%;
+    position: absolute;
+    color: black;
+    float: left;
+  }
+
+
+  #rightFloat .posicionBoton .container1 input.botonBuscar{
+    width: 95%;
+    height: 35px;
+    background: #FFFAF2;
     border: none;
     font-size: 10pt;
-    float: left;
-    color: #FFFAF2;
-    padding-left: 45px;
+    color: black;
+    padding-left: 60px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
   }
 
- .container1 .icon{
-    position: absolute;
-    top: 50%;
-    margin-left: 17px;
-    margin-top: 17px;
-    z-index: 1;
-    color: #FFFAF2;
-  }
+  #rightFloat .opcionesUsuairo{
+    width: 35%;
+    padding: 2px 10px 2px 20px;
+    line-height: 25px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+
+#rightFloat .opcionesUsuairo .container2{
+    width: 100%;
+    height: 80px;
+    margin-left: 2px;
+    padding-left: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: black;
+}
+
+#rightFloat .opcionesUsuairo .container2 .btnAcceder{
+    width: 15%;
+    margin-right: 50px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    float: left;
+}
+
+#rightFloat .opcionesUsuairo .container2 .btnMensajeria{
+    width: 15%;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    float: left;
+}
+
+
+#rightFloat .opcionesUsuairo .container2 .btnCrearCuenta{
+    width: 15%;
+    margin-left: 50px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    float: left;
+}
+
+
+/* CSS PARA LA BARRA DE MENU */
+#menu{
+    width: 97.35%;
+    height: 45px;
+    margin:  0px;
+    padding: 5px 20px 5px 20px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+
+#menu li{
+    font-size: 16px;
+    padding: 2px;
+    margin-left: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+#menu li a {
+    font-weight:600;
+    text-decoration:none;
+    padding: 10px;
+    display: inline-block;
+    color: rgb(243, 241, 241);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+
+#menu li a:hover, #menu li:hover > a{
+    color: black;
+    background: #FFE4E3;
+}
+
+.separador {
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    clear: both;
+}
+
+.fondo{
+    width: 100%;
+    height: 800px;
+    background-color: yellow;
+    text-align: center;
+    float: left;
+    background-position: center;
+}
+
+
+.seccion1 {
+    width: 98.5%;
+    height: 510px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+
+.seccion1 .presentacion {
+    width: 40%;
+    height: 490px;
+    margin-left: 30px;
+    padding: 5px 100px 5px 10px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+
+.seccion1 .aside1 {
+    width: 45%;
+    height: 500px;
+    margin-left: 60px;
+    padding-top: 10px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    background-position: center;
+}
