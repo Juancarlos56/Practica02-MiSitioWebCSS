@@ -158,6 +158,7 @@
     background: #FFE4E3;
 }
 
+
 .separador {
     width: 100%;
     height: 0px;
@@ -167,8 +168,8 @@
 
 .seccion1 {
     width: 100%;
-    height: 50%;
-    background-color: yellow;
+    height: 100%;
+    background-color: white;
 }
 
 .seccion1 .columna1 {
@@ -181,7 +182,7 @@
     margin-left: 1%;
     padding: 5% 5% 5% 5%;
     float: left;
-    background-color: gray;
+    background-color: white;
 }
 
 
@@ -195,7 +196,18 @@
     margin-left: 1%;
     border: none;
     padding: 3% 3% 3% 3%;
-    background-color: green;
+    background-color: white;
+}
+
+
+
+.seccion1 .unionColumnas {
+    width: 100%;
+    height: 50%;
+    float: left;
+    border: none;
+    background-color: white;
+    margin: 0px;
 }
 
 

@@ -13,12 +13,15 @@
     <title>Indie Rock</title>
     <!--metadatos para la pagina Indie Rock-->
     <meta name="keywords" content="Indie Rock, musica, Juan, rock, videos" />
+
+    <link rel="stylesheet" href="../css/estilosCSS.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="../css/disenoDosColumnas.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="../css/estilos.css" type="text/css" media="screen"/>
     
     <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    
     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <!--etiqueta body se utiliza para marcar el contenido
@@ -82,65 +85,93 @@ que aparecerá en la página web-->
     
     <div class="separador"> </div>
 
+
     <section class="seccion1">
         <!--La función del elemento <section> es agrupar elementos relacionados entre sí.--> 
         
-        
-        <div class="columna1">
-            <h3>Indice</h3>
-            <nav>
-                <ol>
-                    <li><a href="bandasIndie.html#bandasIndie"> Bandas Indie </a></li>
-                    <li><a href="bandasIndie.html#ejemplos"> Algunos ejemplos </a></li>
-                </ol>
-            </nav>
+        <div class="EncabezadoBI">
+            <header>
+                <h1 >
+                    Música Indie
+                </h1>
+            </header>
+        </div>
+       
 
+        <div class="separador"> </div>
+
+        <div class="columna1">
+            
             <article>
                 
-                <h2 id="bandasIndie">Bandas Indie </h2>
+                <h2 id="bandasIndie" class="bandasIndieClass">Bandas Indie </h2>    
 
-                <p>
-                    Música indie rock, indie pop, música alternativa entre otras, todas ellas abarcan un sinfín de bandas y estilos musicales que mucho se aleja del concepto inicial.Muchas bandas que asociamos a un gran éxito musical, incluso líderes de ventas, comenzaron en el movimiento indie. En momentos posteriores, tuvieron tanto éxito que fueron absorbidas por una compañía de discos, perdiendo su carácter de independientes.
-                </p>
-
-                <p> 
-                    A lo largo de la historia de la música, diversos géneros y bandas musicales han sido catalogadas como de música indie, por su carácter innovador y porque presentaban propuestas alternativas a lo conocido en ese momento. De esta forma han ido surgiendo géneros como el reggae, o el grunge, que a medida que fueron ganando audiencia se consolidaron con su etiqueta particular y las grandes compañías se interesaron por los artistas y sus bandas.
-                </p>
-
-                <p>
-                    En la actualidad, hay muchas bandas que tocan este tipo de música. Utilizando los recursos electrónicos de última generación y las redes sociales han logrado posicionarse en el gusto de los seguidores de este género.
-                </p>
+                <div class="estructuraParrafoCol1">
+                    <p >
+                        Música indie rock, indie pop, música alternativa entre otras, todas ellas abarcan un sinfín de bandas y estilos musicales que mucho  <em>se del concepto inicial</em>. Muchas bandas que asociamos a un gran éxito musical, incluso líderes de ventas, comenzaron en el movimiento <i>indie</i> . En momentos posteriores, tuvieron tanto éxito que fueron absorbidas por una compañía de discos, perdiendo su carácter de independientes.
+                    </p>
+                    <br>
+                    <p> 
+                        A lo largo de la historia de la música, diversos géneros y bandas musicales han sido catalogadas como de música indie, por su carácter innovador y porque presentaban propuestas alternativas a lo conocido en ese momento. De esta forma han ido surgiendo géneros como el reggae, o el grunge, que a medida que fueron ganando audiencia se consolidaron con su etiqueta particular y las grandes compañías se interesaron por los artistas y sus bandas.
+                    </p>
+                    <br>
+                    <p>
+                        En la actualidad, hay muchas bandas que tocan este tipo de música. Utilizando los recursos electrónicos de última generación y las redes sociales han logrado posicionarse en el gusto de los seguidores de este género.
+                    </p>
+                </div>
+               
             </article>
             
 
         </div>
-        
+
         <aside class="columna2">
-            <h3>Algunas bandas de indie que debes escuchar</h3>
-            <iframe style="width: 600px; height: 480px;" src="https://www.youtube.com/embed/ss7iWuHeUcQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="titulosNoticias">
+                <h1 style="font-size: 35px;" !important>Bandas de indie que debes escuchar</h1>
+            </div>
+
+            <div class="estiloVideos">
+                <iframe  class="videoYoutube"  style="width: 600px; height: 480px;" src="https://www.youtube.com/embed/ss7iWuHeUcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+            
+
         </aside>
         
 
         <div class="separador"> </div>
 
-        <div class="columna1">
+        <aside class="columna1">
+            <div class="titulosNoticias">
+                <h1 style="font-size: 35px;" !important>VENTAS DISCOS Desde 1969 hasta 2019</h1>
+            </div>
+            
+            <div class="estiloVideos">
+                <iframe style="width: 600px; height: 480px;" src="https://www.youtube.com/embed/UGOfY8QcRBk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            
+        </aside>
+
+        <div class="columna2">
             <article>
-                <h2 id="ejemplos">Algunos ejemplos</h2>
-                <p>
-                    Hay quien distingue entre la música indie de la de los grupos que graban en sellos independientes y la música indie como género musical. Desde los comienzos del rock and roll han existido sellos musicales que han trabajado de manera independiente, apartados de las grandes corporaciones que dominaban la industria.
-                </p>
+                <h2 id="ejemplos" class="ejemplosClass">¿Comó se han ido desarrollando?</h2>
+
+                <div class="estructuraTextoCol2">
+                    <p>
+                        Hay quien distingue entre la música indie de la de los grupos que graban en sellos independientes y la música indie como género musical. Desde los comienzos del rock and roll han existido sellos musicales que han trabajado de manera independiente, apartados de las grandes corporaciones que dominaban la industria.
+                    </p>
+                    <br>
+                    <p>    
+                        Algunos de estos sellos han tenido un papel muy importante en el desarrollo de la música popular y de determinados géneros y subgéneros. Es el caso de Sun Records (los descubridores de Elvis) con el rock and roll, Stax con el soul, Rough Trade con el post-punk, Sub Pop con el grunge o Creation con el shoegaze. En lo que a Estados Unidos se refiere, el término música indie se creó para denominar la música producida por pequeños sellos discográficos y que fue preconcebida más o menos en las radios universitarias. Una clara muestra de ello es el grupo R.E.M., que irían evolucionando hacia un rock más maduro.
+                    </p>
+                </div>
                 
-                <p>    
-                    Algunos de estos sellos han tenido un papel muy importante en el desarrollo de la música popular y de determinados géneros y subgéneros. Es el caso de Sun Records (los descubridores de Elvis) con el rock and roll, Stax con el soul, Rough Trade con el post-punk, Sub Pop con el grunge o Creation con el shoegaze. En lo que a Estados Unidos se refiere, el término música indie se creó para denominar la música producida por pequeños sellos discográficos y que fue preconcebida más o menos en las radios universitarias. Una clara muestra de ello es el grupo R.E.M., que irían evolucionando hacia un rock más maduro.
-                </p>
             </article>    
         </div>
         
         
-        <aside class="columna2">
-            <h3>Publicaciones que tal ves te interesen, VENTAS DISCOS 1969 - 2019</h3>
-            <iframe style="width: 600px; height: 480px;" src="https://www.youtube.com/embed/UGOfY8QcRBk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </aside>
+        
 
 
     </section>
@@ -150,61 +181,127 @@ que aparecerá en la página web-->
 
 
     <section class="seccion1">
-        <div class="columna1">
+
+        <div class="EncabezadoBI">
             <header>
-                <h2>Bandas</h2>
+                <h1>Bandas</h1>
             </header>
-            <nav>
-                <ol>
-                    <li><a href="bandasIndie.html#ecuador"> Indie en Ecuador </a></li>
-                    <li><a href="bandasIndie.html#bandas"> Bandas Indie Rock más Conocidad en la Actualidad</a></li>
-                </ol>
-            </nav>
+        </div>
+
+        <div class="separador"> </div>
+
+
+        <div class="columna1">
+
     
             <article>
-                <h2 id="ecuador" >Indie en Ecuador</h2>
-                <p>
-                    Hablando de música ecuatoriana, la escena musical ha tenido logros inmensos en estos últimos años. Pero, ¿Qué le hace falta a nuestro país para generar más contenidos artísticos? La respuesta es simple pero a la vez compleja: es necesario empezar a crear contenidos independientemente para así generar más involucramiento de parte de los jóvenes. La escena independiente se conforma de un una gran cantidad de variables, y no solo de los músicos componiendo canciones, como se solía creer. Se trabaja a partir del público, de la gente que consume, de la fotografía, de los estudios de grabación,  publicidad, fanzines y de otros factores. En Ecuador, dentro del movimiento musical alternativo independiente, la tendencia actual es precisamente el indie pop y el indie rock, tanto en escenarios como en los medios.
-                </p>
+                <h2 id="ecuador" class="bandasIndieClass">Indie en Ecuador</h2>
+                <div class="estructuraParrafoCol1" style="margin-top: 30px; line-height: 30px;" !important>
+                    <p>
+                        Hablando de música ecuatoriana, la escena musical ha tenido logros inmensos en estos últimos años. Pero, ¿Qué le hace falta a nuestro país para generar más contenidos artísticos? La respuesta es simple pero a la vez compleja: es necesario empezar a crear contenidos independientemente para así generar más involucramiento de parte de los jóvenes.
+                    </p>
+                    <br>
+                    <p>
+                        La escena independiente se conforma de un una gran cantidad de variables, y no solo de los músicos componiendo canciones, como se solía creer. Se trabaja a partir del público, de la gente que consume, de la fotografía, de los estudios de grabación,  publicidad, fanzines y de otros factores. En Ecuador, dentro del movimiento musical alternativo independiente, la tendencia actual es precisamente el indie pop y el indie rock, tanto en escenarios como en los medios.
+                    </p>
+                </div>
+                
             </article>
     
 
         </div>
         
         <aside class="columna2">
-            <h3>Maquina Camaleon, banda Ecuatoriana</h3>
-            <iframe style="width: 600px; height: 480px;" src="https://www.youtube.com/embed/S9D6GtVg_PA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <div class="titulosNoticias">
+                <h1 style="font-size: 35px;" !important>Maquina Camaleon, banda Ecuatoriana</h1>
+            </div>
+           
+            
+            <div class="estiloVideos">
+                <iframe style="width: 600px; height: 480px;" src="https://www.youtube.com/embed/S9D6GtVg_PA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            
         </aside>
+
+    </section>
+
+    <div class="separador"> </div>
+
+    <section class="seccion1">
+
+        <div class="EncabezadoBI">
+            <header>
+                <h1 style="font-size: 50px;" !important id="bandas">Bandas Indie Rock más Conocidas en la Actualidad</h1>
+            </header>
+        </div>
 
         <div class="separador"> </div>
 
-        <article class="columna1">
-            <h2 id="bandas">Bandas Indie Rock más Conocidad en la Actualidad</h2>
 
-            <p>
-                Aunque el rock siempre ha estado presente desde años muy antiguos pero hemos visto como se ha ido transformado con el paso del tiempo y hoy en día las bandas ya no son tan fuertes como antes y se han inclinado por temas más suaves. Si no eres fan del rock al menos deberías intentar escuchar a estas que te traemos el día de hoy que seguramente te van a gustar puesto que tienen temas muy buenos que no puedes dejar de escuchar. Así que dale una oportunidad y empieza a abrir tus horizontes musicales con estos artistas de primera en el género del rock.
-            </p>
-            <table border="1" style="width: 600px;" >
+        <div class="columna1">
+            <article>
+                <h2 id="ecuador" class="bandasIndieClass">Bandas mas conocidas en la Actualidad</h2>
+
+                <div class="estructuraParrafoCol1" style="margin-top: 30px; line-height: 30px;" !important>
+                    <p>
+                        Aunque el rock siempre ha estado presente desde años muy antiguos pero hemos visto como se ha ido transformado con el paso del tiempo y hoy en día las bandas ya no son tan fuertes como antes y se han inclinado por temas más suaves. 
+                    </p>
+                        <br>
+                    <p>
+                        Si no eres fan del rock al menos deberías intentar escuchar a estas que te traemos el día de hoy que seguramente te van a gustar puesto que tienen temas muy buenos que no puedes dejar de escuchar. Así que dale una oportunidad y empieza a abrir tus horizontes musicales con estos artistas de primera en el género del rock.
+                    </p>
+                
+                </div>
+            </article>
+        </div>
+        
+        <aside class="columna2">
+            
+            <div class="titulosNoticias">
+                <h1 style="font-size: 45px;" !important>TOP 40 Mejores Canciones Indie Rock de Abril 2020</h1>
+            </div>
+           
+            
+            <div class="estiloVideos">
+                <iframe style="width: 600px; height: 480px;"  src="https://www.youtube.com/embed/tzv_XYAjz3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            
+        </aside>
+
+        
+
+
+
+        <article>
+
+            <h2 id="ecuador" class="tablaTitulo">Bandas mas conocidas en la Actualidad</h2>
+            
+            <table class="tabla">
               
                 <colgroup>
-                    <col style="width: 150px"/>
-                    <col style="width: 225px"/>
-                    <col style="width: 225px"/>
+                    <col style="width: 30%"/>
+                    <col style="width: 30%"/>
+                    <col style="width: 40%"/>
                 </colgroup>
+                
                 <thead>
                     <tr>
-                        <th rowspan="2">Bandas de Indie Rock</th>
-                        <th colspan="2">Características</th>
+                        <th class="titulosTabla" rowspan="2">Bandas de Indie Rock</th>
+                        <th class="titulosTabla" colspan="2">Características</th>
                     </tr>
                     <tr>
-                        <th>Origen</th>
-                        <th>Generos</th>
+                        <th class="titulosTabla" style="font-size: 20px;" !important>Origen</th>
+                        <th class="titulosTabla" style="font-size: 20px;" !important>Generos</th>
+                        
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr>
-                        <th>Arctic Monkeys<img src="../images/Arctic-Monkeys-logo.jpg" alt="" style="width: 100px;" ></th>
+                        <th><img src="../images/Arctic-Monkeys-logo.jpg" alt="" style="width: 100px;" ></th>
                         <td>Sheffield, Inglaterra, Bandera de Reino Unido Reino Unido</td>
                         <td>
                             <ul>
@@ -217,7 +314,7 @@ que aparecerá en la página web-->
                         </td>
                     </tr>
                     <tr>
-                        <th>The Strokes <img src="../images/the-stokes-logo.jpg" alt="" style="width: 100px;"></th>
+                        <th><img src="../images/the-stokes-logo.jpg" alt="" style="width: 100px;"></th>
                         <td>Nueva York, Nueva York</td>
                         <td>
                             <ul>
@@ -229,7 +326,7 @@ que aparecerá en la página web-->
                         </td>
                     </tr>
                     <tr>
-                        <th>Arcade Fire<img src="../images/arcade-fire.jpg" alt="" style="width: 100px;"></th>
+                        <th><img src="../images/arcade-fire.jpg" alt="" style="width: 100px;"></th>
                         <td>Montreal, Quebec, Canadá</td>
                         <td>
                             <ul>
@@ -241,7 +338,7 @@ que aparecerá en la página web-->
                         </td>
                     </tr>
                     <tr>
-                        <th>The Killers <img src="../images/the-killers.gif" alt="" style="width: 100px;"></th>
+                        <th><img src="../images/the-killers.gif" alt="" style="width: 100px;"></th>
                         <td>Las Vegas, Nevada, Estados Unidos</td>
                         <td>
                             <ul>
@@ -253,19 +350,7 @@ que aparecerá en la página web-->
                         </td>
                     </tr>
                     <tr>
-                        <th>Franz Ferdinand <img src="../images/franzF.png" alt="" style="width: 100px;"></th>
-                        <td>Glasgow, Reino Unido</td>
-                        <td>
-                            <ul>
-                                <li>Indie rock​</li>
-                                <li>Dance punk</li>
-                                <li>Post-punk revival</li>
-                                <li>Art rock</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Radiohead <img src="../images/radioHead.gif" alt="" style="width: 100px;"></th>
+                        <th> <img src="../images/radioHead.gif" alt="" style="width: 100px;"></th>
                         <td>Origen	Abingdon-on-Thames, Oxfordshire, Inglaterra</td>
                         <td>
                             <ul>
@@ -277,7 +362,7 @@ que aparecerá en la página web-->
                         </td>
                     </tr>
                     <tr>
-                        <th>Interpol <img src="../images/interpol.png" alt="" style="width: 100px;"></th>
+                        <th> <img src="../images/interpol.png" alt="" style="width: 100px;"></th>
                         <td>Nueva York, Nueva York, Estados Unidos </td>
                         <td>
                             <ul>
@@ -287,55 +372,9 @@ que aparecerá en la página web-->
                         </td>
                     </tr>
                 </tbody>
-                <tr>
-                    <th>Death Cab for Cutie <img src="../images/deathCab.jpg" alt=""  style="width: 100px;"></th>
-                    <td>Bellingham, Washington, Estados Unidos</td>
-                    <td>
-                        <ul>
-                            <li>Indie rock​</li>
-                            <li>Rock alternativo</li>
-                            <li>Indie pop</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <th>The Smiths <img src="../images/the-Smiths.jpg" alt="" style="width: 100px;"></th>
-                    <td>Mánchester, Reino Unido</td> 
-                    <td>
-                        <ul>
-                            <li>Indie rock​</li>
-                            <li>Rock alternativo</li>
-                            <li>Post-punk</li>
-                            <li>Jangle pop</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <th>Foster the People <img src="../images/fosterThePeople.jpg" alt="" style="width: 100px;"></th>
-                    <td>Los Ángeles, California, Estados Unidos</td>
-                    <td>
-                        <ul>
-                            <li>Indie rock​</li>
-                            <li>Dance alternativo</li>
-                            <li>Indie pop</li>
-                            <li>JNeopsicodelia</li>
-                        </ul>
-                    </td>
-                </tr>
-                
-                <tfoot>
-                    <tr>
-                        <td colspan="3">Bandas más conocidas</td>
-                    </tr>
-                </tfoot>
             </table>
 
         </article>
-
-        <aside class="columna2">
-            <h3>Publicidad</h3>
-            <iframe style="width: 100px; height: 315px;" src="https://www.youtube.com/embed/bGvpQebJzDs"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </aside>
 
     </section>
     
