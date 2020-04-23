@@ -24,7 +24,23 @@
     text-transform: uppercase;
 }
 
-.columna1 .bandasIndieClass {
+.columna1 .Subtitulos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna2 .Subtitulos {
     width: 100%;
     float: left;
     margin-top: 10px;
