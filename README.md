@@ -9,21 +9,76 @@
 
 ### Se tomo como base la estructura presentada en la guía de Practica-02, en donde se le aplico algunos estilos: 
 
-### Encabezado:
+#### Encabezado:
 -	Logo
 -	Buscador
 -	Tres botones (Acceder, Mensajes, Crear cuenta)
 -	Barra de Menu
 
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/logo.png)
 
-#### Una página principal denominada index.html  
-![](https://github.com/Juancarlos56/Practica01-MiPrimerSitioWeb/blob/master/informe/index.png)
+
+#### Sección 1: 
+•	Imagen de fondo con una descripción de la pagina
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/fondo.png)
+
+#### Sección 2: 
+•	Novedades de la pagina
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/novedades.png)
+#### Sección 3: 
+•	Testimonios de nuestros clientes
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/testimonios.png)
+
+#### Sección 4: 
+•	Equipo de Desarrollo: Juan Carlos Barrera Barrera
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/equipod.png)
+
+#### Sección 5: 
+•	Pie de Página: En este caso se hizo algo diferente
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/piePagina.png)
+
+### 2.	Se pide utilizar, en al menos una página HTML, un diseño a dos columnas con cabecera y pie de página, como el que se muestra en la Figura 2. Así, como también se recomienda utilizar, en al menos una página HTML, un diseño a tres columnas con cabecera y pie de página como se muestra en la Figura 3. En ambos casos se pide tomar como base la página home.
+
+
 
 #### Ocho páginas en formato *.html secundarias con temas relacionados a la página principal. Nota.- las páginas html, imágenes, audios, videos y otros recursos deberán estar organizadas en carpetas.  
-![](https://github.com/Juancarlos56/Practica01-MiPrimerSitioWeb/blob/master/informe/archivos.png)
 
-#### Todas las páginas deberán tener un menú de navegación el cuál, permite al usuario navegar de una manera clara y sencilla entre todas las páginas HTML, tanto la principal como la secundaria.  
-![](https://github.com/Juancarlos56/Practica01-MiPrimerSitioWeb/blob/master/informe/navegacion.png)
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/doscolumnasestruc.png)
+
+
+#### Se tomo como base la estructura presentada y se le aplico algunos estilos: 
+
+##### Encabezado:
+•	Logo
+•	Buscador
+•	Tres botones (Acceder, Mensajes, Crear cuenta)
+•	Barra de Menu
+
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/cabeceraMusica.png)
+
+
+#### Columnas 1 y 2: 
+•	Cada una tiene un contenido diferente
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/textomusica.png)
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/textomusica2.png)
+
+#### Separador de Contenido: 
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/bandas.png)
+
+#### Columnas 1 y 2: 
+•	Cada una tiene un contenido diferente
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/textomusica3.png)
+
+#### Separador de Contenido: 
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/bandasMasCono.png)
+
+### Columnas 1 y 2: 
+•	Cada una tiene un contenido diferente
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/mejoresBandas.png)
+
+#### Separador de Contenido: 
+![](https://github.com/Juancarlos56/Practica02-MiSitioWebCSS/blob/master/informe/bandasMasCono.png)
+
 
 #### Todas las páginas *.html deben estar estructuradas según la semántica de HTML5. Nota.- se debe explicar la estructura de cada una de las página. Una estructura correcta de HTML5, sería: 
 
