@@ -29,7 +29,7 @@ que aparecerá en la página web-->
 <body>
     <header>
         <div class="logo">
-            <a href="index.html" title="Ir a la Pagina principal"> <img src="../images/LOGO.png" id="leftFloat"> </a>
+            <a href="index.html" title="Ir a la Pagina principal"> <img src="../images/LOGO.png" alt="Logo" id="leftFloat"> </a>
             
             <div id="rightFloat"> 
                 <div class="posicionBoton">
@@ -44,20 +44,20 @@ que aparecerá en la página web-->
 
                 <div class="opcionesUsuairo">
                     <div class="container2">
-                        <span class="btnAcceder">
+                        <div class="btnAcceder">
                             <img src="../imagesCSS/user.png" alt="Acceder a la cuenta">
                             <h5>Acceder</h5>
-                        </span>
+                        </div>
 
-                        <span class="btnMensajeria">
+                        <div class="btnMensajeria">
                             <img src="../imagesCSS/mensajeria.png" alt="Enviar mensaje">
                             <h5>Mensajeria</h5>
-                        </span>
+                        </div>
 
-                        <span class="btnCrearCuenta">
+                        <div class="btnCrearCuenta">
                             <img src="../imagesCSS/nuevoUser.png" alt="Crear Cuenta">
                             <h5>Crear Cuenta</h5>
-                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -82,8 +82,8 @@ que aparecerá en la página web-->
             </ol> 
         </nav>
     </div>  
-    
-    <div class="separador"> </div>
+    <div class="separador"> 
+    </div>
 
     <section class="seccion1">
         <div class="EncabezadoBI">
@@ -118,20 +118,20 @@ que aparecerá en la página web-->
         
 
         <aside class="columna2">
-            <div class="titulosNoticias">
-                <h1 style="font-size: 30px;" !important>
-                    Contribución de la Tecnologia en la Musica
-                </h1>
-            </div>
+           
             
-            <article class="estructuraTextoCol2" >
-                <div>
-                 <blockquote>
+            <article >
+                <div class="titulosNoticias">
+                    <h2>
+                        Contribución de la Tecnologia en la Musica
+                    </h2>
+                </div>
+                
+                 <blockquote class="estructuraTextoCol2" >
                      <p>
                          La tecnología de Internet permite a muchos artistas introducir su música a una enorme audiencia potencial a un bajo costo <em> sin estar necesariamente relacionados con una discográfica</em>. El diseño de software que soporta música digital alentó la creación de nueva música. Las páginas con amplias librerías de canciones son las más exitosas. Alrededor de estas se crearon muchas oportunidades para las bandas independientes. Los derechos por servicios digitales validarían una importante fuente de ingresos. Más aún, plataformas de streaming como Spotify han demostrado ser vías válidas para que los artistas independientes obtengan ingresos respetables gracias a los derechos derivados de las reproducciones de su música. Los servicios digitales ofrecen la oportunidad de exposición a nuevos adeptos y la posibilidad de incrementar ventas a través de los revendedores minoristas on-line. Los artistas pueden también poner a disposición nueva música más frecuentemente y rápidamente si esta está disponible on-line. Adicionalmente, los artistas tendrían la opción de lanzar ediciones limitadas, reediciones, o material en vivo que sería muy caro producir por los medios tradicionales. 
                      </p>    
                  </blockquote>
-                </div>
                  
              </article>
      
@@ -142,10 +142,10 @@ que aparecerá en la página web-->
        <div class="columna1">
 
             <article>
-                <h2 id="ecuador" class="Subtitulos"  id="transmite">
+                <h2 class="Subtitulos"  id="transmite">
                     ¿Qué transmite?
                 </h2>
-                    <div class="estructuraParrafoCol1" style="margin-top: 30px; line-height: 30px;" !important>
+                    <div class="estructuraParrafoCol1" >
                     
                         <p>El indie es libre de explorar sonidos, emociones y líricas que no atraen a grandes audiencias, donde el gusto personal es priorizado a las ventas. En muchos casos, esta arraigado al sonido y la sensibilidad del rock alternativo anglosajón de fines de los 80s y principios de los 90s, como Pavement, Happy Mondays, Sonic Youth, My Bloody Valentine, música cargada de chorus, delay, efectos, sintetizadores. Por otro lado, también encontramos al Garage Rock como subgénero representado por bandas como The White Stripes, The Libertines, The Strokes, cuyo audio es más crudo, donde se aprecia mas distorsion y reverb de amplificadores.
                         </p>
@@ -163,10 +163,12 @@ que aparecerá en la página web-->
             <div class="estiloVideos">
 
                 <div class="titulosNoticias">
-                    <h1 style="font-size: 30px;" !important>Transcurso de la música</h1>
+                    <h2>Transcurso de la música</h2>
                 </div>
 
-                <iframe width="600px" height="480px" src="https://www.youtube.com/embed/uipy4Dx_Yd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="text-align: center;">
+                    <iframe style="width: 600px; height: 480px;" src="https://www.youtube.com/embed/uipy4Dx_Yd8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
             </div>
             
         </div>
@@ -182,9 +184,9 @@ que aparecerá en la página web-->
     
     <section class="seccion1">
 
-        <div class="EncabezadoBI">
+        <div class="EncabezadoBIPeq">
             <header>
-                <h1 style="font-size: 50px;" !important id="bandas">Subgéneros y características de la musica Indie Rock</h1>
+                <h1 id="bandas">Subgéneros y características de la musica Indie Rock</h1>
             </header>
         </div>
 
@@ -193,7 +195,7 @@ que aparecerá en la página web-->
             <article>
                 <h2 id="Caracteristicas" class="Subtitulos" >Características</h2>
                 
-                    <div class="estructuraParrafoCol1" style="margin-top: 5px; line-height: 30px;" !important>
+                    <div class="estructuraParrafoCol1">
                         <ul>
                             <li>Vocación puramente artística, no comercial</li>
                             <li>Que el grupo no este ligado a la difusión radial o publicitaria mainstream (aunque en estos últimos 20 años, se haya convertido en mainstream y se utilice el termino “indie” de manera comercial, lo que genera una contradicción en sí mismo).</li>
@@ -211,7 +213,7 @@ que aparecerá en la página web-->
 
         <aside class="columna2">
             
-            <h2 id="Caracteristicas" class="Subtitulos">
+            <h2 class="Subtitulos">
                 El "Indie" NO ES UN GENERO MUSICAL
             </h2>
 
@@ -237,16 +239,16 @@ que aparecerá en la página web-->
                 <img src="../imagesCSS/instagram.png" alt="Enviar mensaje">
             </span>
 
-            <span class="estiloPiePagina">
+            <div class="estiloPiePagina">
                 <div>
                     <a href="index.html" title="Ir a la Pagina principal">  
-                        <img id="footerlogo" src="../images/LOGO.png" > 
+                        <img id="footerlogo" src="../images/LOGO.png" alt="logo" > 
                     </a>
                 </div>
                 <p>
                     &#169;Todos los derechos reservados.
                 </p>
-            </span>
+            </div>
            
         </div>   
         

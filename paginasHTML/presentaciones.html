@@ -28,7 +28,7 @@ que aparecerá en la página web-->
 <body>
     <header>
         <div class="logo">
-            <a href="index.html" title="Ir a la Pagina principal"> <img src="../images/LOGO.png" id="leftFloat"> </a>
+            <a href="index.html" title="Ir a la Pagina principal"> <img src="../images/LOGO.png" alt="Logo" id="leftFloat"> </a>
             
             <div id="rightFloat"> 
                 <div class="posicionBoton">
@@ -43,20 +43,20 @@ que aparecerá en la página web-->
 
                 <div class="opcionesUsuairo">
                     <div class="container2">
-                        <span class="btnAcceder">
+                        <div class="btnAcceder">
                             <img src="../imagesCSS/user.png" alt="Acceder a la cuenta">
                             <h5>Acceder</h5>
-                        </span>
+                        </div>
 
-                        <span class="btnMensajeria">
+                        <div class="btnMensajeria">
                             <img src="../imagesCSS/mensajeria.png" alt="Enviar mensaje">
                             <h5>Mensajeria</h5>
-                        </span>
+                        </div>
 
-                        <span class="btnCrearCuenta">
+                        <div class="btnCrearCuenta">
                             <img src="../imagesCSS/nuevoUser.png" alt="Crear Cuenta">
                             <h5>Crear Cuenta</h5>
-                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -81,38 +81,20 @@ que aparecerá en la página web-->
             </ol> 
         </nav>
     </div>  
-    
-    <div class="separador"> </div>
+    <div class="separador"> 
+    </div>
 
     <section class="seccion1">
 
-        <div class="EncabezadoBI">
+        <div class="EncabezadoBIPeq">
             <header>
-                <h1 style="font-size: 38px;" !important>Estos son los conciertos programados en Ecuador para el 2020
-                    <br> <time datetime="2020-04-04" style="font-size: 25px;" !important>2020-04-23</time>
+                <h1> conciertos programados en Ecuador para el 2020
+                   
                 </h1>
                 
             </header>
         </div>
 
-        <h2>Indice</h2>
-    
-        <ol>
-            <li><a href="presentaciones.html#presentaciones"> Conciertos programados en Ecuador para el 2020 </a></li>
-            <li><a href="presentaciones.html#bandasVivo"> Subgéneros y características </a></li>
-
-        </ol>
-        
-        <h2 id="presentaciones">presentaciones</h2>
-        <p>
-            Aquí te dejamos esta guía de los conciertos que ya tienen fecha de realización y precios de entradas, para que programes tu agenda, de acuerdo a tus preferencias musicales.
-        </p>
-
-        <ol>
-            <li><a href="presentaciones.html#marzo"> Marzo</a></li>
-            <li><a href="presentaciones.html#junio"> Junio </a></li>
-            <li><a href="presentaciones.html#noviembre"> Noviembre </a></li>
-        </ol>
 
         <h2 id="marzo" class="Subtitulos">Marzo</h2>
 
@@ -138,9 +120,9 @@ que aparecerá en la página web-->
 
         <div class="columna2">
             <div class="titulosNoticias">
-                <h1 style="font-size: 35px;" !important>
+                <h2>
                     Guns N' Roses - November Rain 
-                </h1>
+                </h2>
             </div>
 
             <iframe style="width: 576px; height: 315px;" src="https://www.youtube.com/embed/8SbUC-UaAxE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -172,9 +154,9 @@ que aparecerá en la página web-->
         
         <div class="columna2">
             <div class="titulosNoticias">
-                <h1 style="font-size: 35px;" !important>
+                <h2>
                     Mägo de Oz- Fiesta pagana
-                </h1>
+                </h2>
             </div>
  
             <iframe style="width: 576px; height: 315px;" src="https://www.youtube.com/embed/xvVLWSsKjkI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -205,9 +187,9 @@ que aparecerá en la página web-->
         
         <div class="columna2">
             <div class="titulosNoticias">
-                <h1 style="font-size: 35px;" !important>
+                <h2>
                     Mägo de Oz- Fiesta pagana
-                </h1>
+                </h2>
             </div>
  
             <iframe style="width: 576px; height: 315px;" src="https://www.youtube.com/embed/lfkgOWrd1vc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -218,7 +200,7 @@ que aparecerá en la página web-->
 
         <div class="unionCol">
             <div class="novedades">
-                <h2 id="noviembre" class="Subtitulos" style="color: white;" !important>Compra tus Boletos ahora </h2>
+                <h2 class="Subtitulos">Compra tus Boletos ahora </h2>
                 <div class="container3">
                     <table class="tablaNovedades">
                         <tbody>
@@ -235,8 +217,8 @@ que aparecerá en la página web-->
     
                     </table>
                 </div>
+            </div>
         </div>
-        
 
     </section>
 
@@ -311,6 +293,9 @@ que aparecerá en la página web-->
 
     <div class="separador"> </div>
 
+    
+    <div class="separador"> </div>
+
     <footer class="footer">
         <!--A nivel de página sería la típica zona en la parte baja de la web, donde 
             se suelen incluir datos de contacto, enlaces, etc-->
@@ -324,16 +309,16 @@ que aparecerá en la página web-->
                 <img src="../imagesCSS/instagram.png" alt="Enviar mensaje">
             </span>
 
-            <span class="estiloPiePagina">
+            <div class="estiloPiePagina">
                 <div>
                     <a href="index.html" title="Ir a la Pagina principal">  
-                        <img id="footerlogo" src="../images/LOGO.png" > 
+                        <img id="footerlogo" src="../images/LOGO.png" alt="logo" > 
                     </a>
                 </div>
                 <p>
                     &#169;Todos los derechos reservados.
                 </p>
-            </span>
+            </div>
            
         </div>   
         
