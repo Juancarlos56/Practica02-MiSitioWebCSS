@@ -56,6 +56,22 @@
     text-transform: uppercase;
 }
 
+.columna3 .Subtitulos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
 .columna2 .titulosNoticias {
     width: 100%;
     float: left;
@@ -103,8 +119,35 @@
     line-height: 25px;
 }
 
+.columna3 .estructuraParrafoCol1 {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    line-height: 25px;
+}
 
-.columna2 .estructuraTextoCol2 {
+
+.playYoutube {
+    width: 25%;
+    float: left;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #737373;
+} 
+
+
+.columna2 .estructuraParrafoCol1 {
     width: 100%;
     float: left;
     margin-top: 15px;
