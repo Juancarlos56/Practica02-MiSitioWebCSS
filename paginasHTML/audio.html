@@ -11,133 +11,256 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indie Rock</title>
+     <!--metadatos para la pagina Indie Rock-->
+     <meta name="keywords" content="Indie Rock, musica, Juan, rock" />
+     <link rel="stylesheet" href="../css/pageHome.css">
+     <link rel="stylesheet" href="../css/estilos.css" type="text/css" media="screen"/>
+     <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+     
+     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    
+     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+ 
+     <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="../css/estilosCSS.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="../css/disenoDosColumnas.css" type="text/css" media="screen"/>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <!--etiqueta body se utiliza para marcar el contenido
 que aparecerá en la página web-->
 <body>
     <header>
-        <!--Esta es la cabecera de una página. Aqui se debe de colocar el logo de la Pagina, nombre o imagen de la Pagina. Puedes definir cabeceras tanto a nivel de página como de una zona determinada-->
-        <img src="../images/cabecera2.jpg"  alt="Indie Rock"  style="width: 100%;">
+        <div class="logo">
+            <a href="index.html" title="Ir a la Pagina principal"> <img src="../images/LOGO.png" id="leftFloat"> </a>
+            
+            <div id="rightFloat"> 
+                <div class="posicionBoton">
+                    <div class="container1">
+                        <span class="icon">
+                            <img src="../imagesCSS/search.png" alt="buscar">
+                        </span>
+    
+                        <input class="botonBuscar" type="search" autocapitalize="none" placeholder="Buscar..." value=""/>
+                    </div>
+                </div>
+
+                <div class="opcionesUsuairo">
+                    <div class="container2">
+                        <span class="btnAcceder">
+                            <img src="../imagesCSS/user.png" alt="Acceder a la cuenta">
+                            <h5>Acceder</h5>
+                        </span>
+
+                        <span class="btnMensajeria">
+                            <img src="../imagesCSS/mensajeria.png" alt="Enviar mensaje">
+                            <h5>Mensajeria</h5>
+                        </span>
+
+                        <span class="btnCrearCuenta">
+                            <img src="../imagesCSS/nuevoUser.png" alt="Crear Cuenta">
+                            <h5>Crear Cuenta</h5>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </header>
-    <nav>
-        <!--Esta es la barra de navegación principal del sitio. Sirve para definir una zona de navegación con vínculos entre las diferentes páginas.-->
-        <ol>       
-            <li><a href="index.html">Pagina de Inicio</a> </li>
-            <li><a href="bandasIndie.html">Bandas Indie</a></li>        
-            <li><a href="videosMusicales.html">Videos Musicales</a> </li>            
-            <li><a href="publicaciones.html">Publicaciones</a></li>
-            <li><a href="historia.html">Historia</a></li>       
-            <li><a href="presentaciones.html">Presentaciones</a></li> 
-            <li><a href="contactos.html">Contactos</a> </li>
-            <li><a href="audio.html">Audios Musicales</a> </li>
-            <li><a href="aboutUs.html">About Us</a> </li>
-        </ol> 
-    </nav>
-    <section>
-        <!--La función del elemento <section> es agrupar elementos relacionados entre sí.-->
-        <h2>Audios Musicales</h2>
-        
-        <aside>
-            <!--La función del elemento <aside> es mostrar un contenido relacionado al contenido al cuál esta vinculado. Puede tratarse de sidebars, zonas de widgets, complementos sobre un artículo, etc-->
-            <a href="http://radiobuap.com/category/cine/"><img src="../images/cine.jpg" alt="Cine" style="width: 200px;"></a>
-        </aside>
 
-        <aside>
-            <a href="fotos.html"><img src="../images/fotografia.jpg" alt="Fotografia" style="width: 200px;"></a>
-        </aside>
-
-        <h3>Indice</h3>
+    <!--Esta es la barra de navegación principal del sitio. Sirve para definir 
+        una zona de navegación con vínculos entre las diferentes páginas.-->
+    <div id="menu"> 
         <nav>
-            <ol>
-                <li><a href="audio.html#ultimos"> Ultimos Audios Subidos </a></li>
-                <li><a href="audio.html#soloAudio"> Videos solo Audio </a></li>
-                <li><a href="audio.html#subidos"> Videos Subidos</a></li>
-
-            </ol>
+            <ol>       
+                <li><a href="index.html">Pagina de Inicio</a> </li>
+                <li><a href="bandasIndie.html">Bandas Indie</a></li>        
+                <li><a href="videosMusicales.html">Videos Musicales</a> </li>            
+                <li><a href="publicaciones.html">Publicaciones</a></li>
+                <li><a href="historia.html">Historia</a></li>       
+                <li><a href="presentaciones.html">Presentaciones</a></li> 
+                <li><a href="contactos.html">Contactos</a> </li>
+                <li><a href="audio.html">Audios Musicales</a> </li>
+                <li><a href="aboutUs.html">About Us</a> </li>
+            </ol> 
         </nav>
-            
+    </div>  
+    <div class="separador"> </div>
+
+    <section class="seccion5">
+        <!--La función del elemento <section> es agrupar elementos relacionados entre sí.-->
+
+        <div class="EncabezadoBI" style="margin-top: 80px;">
+            <header>
+                <h1>Audios Musicales</h1>
+            </header>
+        </div>
+
+
+        <header>
+            <h3 style="margin-top: 80px; color: white; background-color: black;" class="Subtitulos" id="ultimos">Ultimos Audios Subidos</h3>
+        </header>
+        <div class="separador"> </div>
         <article>
 
-            <h3 id="ultimos">Ultimos Audios Subidos</h3>
-            <table border="1" style="width: 400px;" >
-              
-                <colgroup>
-                    <col style="width: 150px"/>
-                    <col style="width: 250px"/>
-                </colgroup>
-                <thead>
-                    <tr>
-                        <th rowspan="2">Artista</th>
-                        <th rowspan="2">Canción</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <th>Naya - Girl On the Moon</th>
-                        <td>
-                            <img src="../images/nuya-gitl-on-the-moon.jpg"  alt="" style="width: 250px;">
-                            <audio data-scr="../audios/Naya - Girl On the Moon (Clip officiel).mp3" controls style="width: 250px;"></audio>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <th>COIN - Run</th>
-                        <td>
-                            <img src="../images/coin-run.jpg" alt="" style="width: 250px;">
-                            <audio data-scr="../audios/Coin - Run.mp3" controls style="width: 250px;"></audio>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <th>Cage the Elephant - Trouble</th>
-                        <td>
-                            <img src="../images/Cage-trouble.jpg"  alt="" style="width: 250px;">
-                            <audio data-scr="../audios/Trouble.mp3" controls style="width: 250px;"></audio>
-                        </td>
-                    </tr>
-                </tbody>    
-                <tfoot>
-                    <tr>
-                        <td colspan="2">Bandas más conocidad</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <header>
+                <h1>NOVEDADES</h1>
+            </header>
+            <div class="novedades">
+                <div class="container3">
+                    
+                    <table class="tablaNovedades">
+                       
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img class="audio" src="../images/nuyagitlonthemoon.jpg"  alt=""> 
+                                    <audio controls src="../audios/NayaGirlOntheMoon.mp3"  style="width: 250px;"></audio>
+                                </td>
+                    
+                                <td>
+                                    <img src="../images/coin-run.jpg" alt="">
+                                    <audio controls src="../audios/CoinRun.mp3"  style="width: 250px;"></audio>
+                                </td>
+                                <td>
+                                    <img src="../images/Cage-trouble.jpg"  alt="">
+                                    <audio controls src="../audios/Trouble.mp3"  style="width: 250px;"></audio>
+                                </td>
+                                <td>
+                                    <img src="../images/theNewAbnormalTheStokes.jpg"  alt="" style="width: 250px;">
+                                    <audio controls src="../audios/NayaGirlOntheMoon.mp3"  style="width: 250px;"></audio>
+                                </td>
+                                <td>
+                                    <img  src="../images/sunsetTheMidnight.jpg"  alt="">
+    
+                                    <audio controls src="../audios/NayaGirlOntheMoon.mp3"></audio>
+                                </td>
+                            </tr>
+                        </tbody> 
+    
+                    </table>
+                </div>
+            </div>
             
         </article>
     </section>
-    
-    <section>
-        <h2 id="soloAudio">Videos solo Audio</h2>
+
+
+
+
+
+
+    <div class="separador"> </div>
+
+    <section class="seccion5">
+        <!--La función del elemento <section> es agrupar elementos relacionados entre sí.-->
+
+       
+        <header>
+            <h3 style="margin-top: 100px; margin-bottom: 90px; color: white; background-color: black;" class="Subtitulos" id="ultimos">Ultimos Audios Subidos</h3>
+        </header>
+
+
+        <div class="separador"> </div>
         
+      
         <article>
-            <h3 id="subidos">Videos Subidos</h3>
-            <blockquote>
-                <h4>Cage The Elephant - Honeypie Come A Little Closer</h4>
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/uRI0_G9RIDw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </blockquote>
-
-            <blockquote>
-                <h4>Alkaloides - Ojeras</h4>
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/JV-Bi61BCt8"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </blockquote>
-
-            <blockquote>
-                <h4>The Strokes - Bad Decisions</h4>
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/vFOAPi2EoHU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </blockquote>
+            <div class="novedades">
+                <div class="container3">
+                    
+                    <table class="tablaNovedades" style="color: black;">
+                       
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                            <h4>Cage The Elephant</h4>
+                                            <br>
+                                            <p style="text-align: center;">
+                                                <iframe width="400" height="315" src="https://www.youtube.com/embed/uRI0_G9RIDw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            
+                                            </p>
+                                           
+                                        
+                                    </div>
+                                </td>
+                    
+                                <td>
+                                    <div>
+                                        
+                                            <h4>Alkaloides</h4>
+                                            <br>
+                                            <p style="text-align: center;">
+                                                <iframe width="400" height="315" src="https://www.youtube.com/embed/JV-Bi61BCt8"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </p>
+                                           
+                                        
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        
+                                            <h4>Current Joys</h4>
+                                            <br>
+                                            <p style="text-align: center;">
+                                                <iframe width="400" height="315" src="https://www.youtube.com/embed/3G5Conn-b2o" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </p>
+                                            
+                                        
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody> 
+    
+                    </table>
+                </div>
+            </div>
             
-            <blockquote>
-                <h4>Current Joys - A Different Age</h4>
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/3G5Conn-b2o" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </blockquote>
         </article>
     </section>
     
-    <footer>
-        <!--A nivel de página sería la típica zona en la parte baja de la web, donde se suelen incluir datos de contacto, enlaces, etc-->
-         Nombre: Juan Carlos Barrera Barrera &#8226; Organización: Universidad Politécnica Salesiana &#8226; Email: <a href="mailto:jbarrerab1@est.ups.edu.ec">jbarrerab1@est.ups.edu.ec </a> Numero de Teléfono: &#8226; <a href="tel:+(593)0988026102">(593) 098 802 6102 </a>  &#8226; 
-         &#169;Todos los derechos reservados.
+
+    <div class="separador"> </div>
+
+
+    <div class="separador"> </div>
+
+    <footer class="footer">
+        <!--A nivel de página sería la típica zona en la parte baja de la web, donde 
+            se suelen incluir datos de contacto, enlaces, etc-->
+        <div class="container6">
+
+            <span class="btnFacebook">
+                <img src="../imagesCSS/facebook.png" alt="Acceder a la cuenta">
+            </span>
+
+            <span class="btnInstagram">
+                <img src="../imagesCSS/instagram.png" alt="Enviar mensaje">
+            </span>
+
+            <span class="estiloPiePagina">
+                <div>
+                    <a href="index.html" title="Ir a la Pagina principal">  
+                        <img id="footerlogo" src="../images/LOGO.png" > 
+                    </a>
+                </div>
+                <p>
+                    &#169;Todos los derechos reservados.
+                </p>
+            </span>
+           
+        </div>   
+        
+        
     </footer>
 </body>
 </html>
